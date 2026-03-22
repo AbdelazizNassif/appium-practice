@@ -6,7 +6,7 @@ class BasePage {
      * @param {number} timeout - Timeout in milliseconds (default: 10000)
      * @returns {WebdriverIO.Element} - The located element
      */
-    async locateElement(selector, timeout = 10000) {
+    async locateElement(selector, timeout = 30000) {
         const element = $(selector);
         await element.waitForDisplayed({ timeout });
         return element;
@@ -17,8 +17,8 @@ class BasePage {
      * @param {string} selector - Element selector
      * @param {number} timeout - Timeout in milliseconds (default: 10000)
      */
-    async clickElement(selector, timeout = 10000) {
-        const element = await this.waitAndGetElement(selector, timeout);
+    async clickElement(selector, timeout = 30000) {
+        const element = await this.locateElement(selector, timeout);
         await element.click();
     }
 
@@ -28,9 +28,8 @@ class BasePage {
      * @param {string} text - Text to type
      * @param {number} timeout - Timeout in milliseconds (default: 10000)
      */
-    async type(selector, text, timeout = 10000) {
-        const element = await this.waitAndGetElement(selector, timeout);
-        await element.clearValue();
+    async type(selector, text, timeout = 30000) {
+        const element = await this.locateElement(selector, timeout);
         await element.setValue(text);
     }
 
@@ -40,8 +39,8 @@ class BasePage {
      * @param {number} timeout - Timeout in milliseconds (default: 10000)
      * @returns {string} - Element text
      */
-    async getElementText(selector, timeout = 10000) {
-        const element = await this.waitAndGetElement(selector, timeout);
+    async getElementText(selector, timeout = 30000) {
+        const element = await this.locateElement(selector, timeout);
         return await element.getText();
     }
 

@@ -22,9 +22,6 @@ exports.config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
-    specs: [
-        './test/specs/notesApp/*.spec.js'
-    ],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -50,7 +47,7 @@ exports.config = {
     // connection details for Appium
     protocol: 'http',
     hostname: '127.0.0.1',
-    port: 4723,
+    // port: 4723,
     path: '/',
     
     // services for the test runner
@@ -61,16 +58,6 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     // capabilities: [require('./test/appium.config').APPIUM_CAPABILITIES],
-    capabilities: [{
-        'appium:platformName': 'Android',
-        'appium:deviceName': 'Pixel XL',
-        'appium:automationName': 'UiAutomator2',
-        'appium:platformVersion': '13.0',
-        'appium:app': path.join(process.cwd(), 'app/ColorNote.apk'),
-        'appium:autoGrantPermissions': true,
-        'appium:noReset': false,
-    }],
-
     //
     // ===================
     // Test Configurations

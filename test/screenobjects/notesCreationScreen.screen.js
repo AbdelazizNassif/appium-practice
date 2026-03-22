@@ -6,7 +6,7 @@ class NotesCreationScreen extends BasePage {
     }
 
     async enterNoteText(text) {
-        await this.noteEditField.setValue(text);
+        await this.type('//android.widget.EditText[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/edit_note"]', text);
     }
 }
 

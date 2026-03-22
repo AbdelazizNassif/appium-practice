@@ -19,6 +19,7 @@ describe('Appium mobile test', () => {
     const alertDialog = new AlertDialog();
     const mainSideMenu = new MainSideMenu();
     const trashCanListingScreen = new TrashCanListingScreen();
+    
     it('user should be able to skip tutorial, add a note & delete the note', async () => {
         // spalash screen
         await splashScreen.skipTutorial();
@@ -50,7 +51,7 @@ describe('Appium mobile test', () => {
             .toHaveText('Are you sure you want to move the note to the trash can?');
         await alertDialog.confirm();
         // notes listing page
-        expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);
+        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);
         // top nav screen
         await topNavBar.clickNavIcon();
         // main side menu

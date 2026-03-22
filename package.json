@@ -17,6 +17,10 @@
     "@wdio/spec-reporter": "^9.25.0",
     "@wdio/types": "^9.25.0",
     "appium": "^3.2.2",
-    "appium-uiautomator2-driver": "^7.0.0"
+    "appium-uiautomator2-driver": "^7.0.0",
+    "eslint": "^10.1.0"
+  },
+  "dependencies": {
+    "eslint-plugin-wdio": "^9.26.1"
   }
 }

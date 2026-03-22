@@ -6,7 +6,7 @@ class MainSideMenu extends BasePage {
     }
 
     async clickTrashCan() {
-        await this.trashCanOption.click();
+        await this.clickElement('//*[@text="Trash Can"]');
     }
 }
 

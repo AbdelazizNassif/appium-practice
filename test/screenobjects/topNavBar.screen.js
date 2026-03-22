@@ -22,23 +22,24 @@ class TopNavBar extends BasePage {
     }
 
     async clickAddButton() {
-        await this.addButton.click();
+        await this.clickElement('//android.widget.ImageButton[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/main_btn1"]');
     }
 
     async clickBackButton() {
-        await this.backButton.click();
+        await this.clickElement('//*[contains(@resource-id, "back_btn")]');
     }
 
     async clickMoreButton() {
-        await this.moreButton.click();
+        // await this.clickElement('//android.widget.ImageButton[@content-desc="More"]');
+        await this.clickElement('//*[contains(@resource-id, "menu_btn")]');
     }
 
     async clickNavIcon() {
-        await this.navIcon.click();
+        await this.clickElement('//android.widget.ImageButton[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/icon_nav"]');
     }
 
     async isLogoDisplayed() {
-        return await this.logo.isDisplayed();
+        return await this.locateElement('//android.widget.ImageView[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/logo_image"]').isDisplayed();
     }
 }
 

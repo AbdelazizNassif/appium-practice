@@ -10,11 +10,11 @@ class AlertDialog extends BasePage {
     }
 
     async getMessageText() {
-        return await this.message.getText();
+        return await this.getElementText(this.message);
     }
 
     async confirm() {
-        await this.okButton.click();
+        await this.clickElement('//android.widget.Button[@resource-id="android:id/button1"]');
     }
 }
 

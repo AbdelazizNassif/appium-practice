@@ -1,0 +1,20 @@
+const config = require('./wdio.shared.conf');
+
+config.port = 4723;
+
+config.capabilities = [
+    {
+        'appium:platformName': 'Android',
+        'appium:platformVersion': '13',
+        'appium:deviceName': 'Pixel XL',
+        'appium:automationName': 'UiAutomator2',
+        'appium:app': process.cwd() + '/app/ColorNote.apk',
+        'appium:autoGrantPermissions': true
+    }
+];
+
+config.specs = [
+    '../test/specs/notesApp/notesCrudE2e.spec.js'
+];
+
+exports.config = config;

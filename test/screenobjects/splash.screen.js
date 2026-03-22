@@ -6,7 +6,7 @@ class SplashScreen extends BasePage {
     }
 
     async skipTutorial() {
-        await this.skipButton.click();
+        await this.clickElement('//android.widget.Button[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/btn_start_skip"]');
     }
 }
 

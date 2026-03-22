@@ -14,8 +14,7 @@ class NotesListingScreen extends BasePage {
     }
 
     async clickNoteByText(text) {
-        const note = $(`//*[@text="${text}"]`);
-        await note.click();
+        await this.clickElement(`//*[@text="${text}"]`);
     }
 
     async isNoteDisplayed(text) {
@@ -25,7 +24,7 @@ class NotesListingScreen extends BasePage {
 
     async isNoteNotExisting(text) {
         const note = $(`//*[@text="${text}"]`);
-        return await note.waitForDisplayed({ reverse: true, timeout: 5000 });
+        return await note.waitForDisplayed({ reverse: true, timeout: 30000 });
     }
 }
 

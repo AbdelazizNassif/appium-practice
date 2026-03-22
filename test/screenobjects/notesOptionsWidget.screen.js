@@ -6,7 +6,7 @@ class NotesOptionsWidget extends BasePage {
     }
 
     async clickDelete() {
-        await this.deleteOption.click();
+        await this.clickElement('//android.widget.TextView[@resource-id="com.socialnmobile.dictapps.notepad.color.note:id/text" and @text="Delete"]');
     }
 }
 
