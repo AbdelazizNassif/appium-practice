@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio:android": "npx wdio run config/wdio.android.conf.js",
+    "wdio:ios": "npx wdio run config/wdio.ios.conf.js"
   },
   "author": "",
   "license": "ISC",

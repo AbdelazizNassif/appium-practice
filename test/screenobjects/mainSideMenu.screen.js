@@ -2,11 +2,13 @@ const BasePage = require('./base.page');
 
 class MainSideMenu extends BasePage {
     get trashCanOption() {
-        return $('//*[@text="Trash Can"]');
+        // return $("//*[contains(@text, 'Trash Can')]");
+        return ('android=new UiSelector().textContains("Trash Can")');
     }
 
     async clickTrashCan() {
-        await this.clickElement('//*[@text="Trash Can"]');
+        await $('android=new UiSelector().textContains("Trash Can")').click();
+        // await this.trashCanOption.waitForDisplayed({ reverse: true ,timeout: 5000 });
     }
 }
 
