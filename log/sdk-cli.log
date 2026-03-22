@@ -1,0 +1,1948 @@
+2026-03-22T17:38:56.867Z CLI info [main]     Server listening on port: 5400
+2026-03-22T17:38:56.982Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"appium:platformName":"Android","appium:platformVersion":"13","appium:deviceName":"Google Pixel 7 Pro","appium:automationName":"UiAutomator2","appium:app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","appium:autoGrantPermissions":true,"wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":false,"buildIdentifier":"${BUILD_NUMBER}","browserstackLocal":true,"app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","testObservability":true,"testObservabilityOptions":{"buildTag":["bstack_sample"]},"browserStackLocalOptions":{"forcelocal":false,"localIdentifier":"webdriverio-appium-app-browserstack-repo"},"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":["bstack_sample"]}
+2026-03-22T17:38:56.983Z CLI info     Skipping buildIdentifier as buildName is not set or is set to null
+2026-03-22T17:38:57.108Z CLI info     Should start debug utility: undefined
+2026-03-22T17:38:57.111Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [29cd5610-63d7-4393-be92-4de1d3e3be42]  Starting testhub from 43444:0
+2026-03-22T17:38:57.113Z CLI info  [abdelazizsamir_f45tEd]   [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T17:38:57.114Z CLI info  [abdelazizsamir_f45tEd]   [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T17:38:57.697Z CLI info  [abdelazizsamir_f45tEd]   [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T17:38:57.698Z CLI info  [abdelazizsamir_f45tEd]   [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T17:38:57.699Z CLI info  [abdelazizsamir_f45tEd]   [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T17:38:58.320Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [29cd5610-63d7-4393-be92-4de1d3e3be42]  startBuild: response=x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr
+2026-03-22T17:38:58.322Z CLI info  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T17:38:58.693Z CLI info  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T17:38:59.096Z CLI error [percy:percy]  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  Percy unable to fetch project token: [object Object]
+2026-03-22T17:38:59.096Z CLI error  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  error invoking callback for eventName: {}
+2026-03-22T17:38:59.097Z CLI error  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-03-22T17:39:08.202Z CLI info [appautomate:service]  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  Using app: bs://e18595939066ebcd9e037de0983b31c86a10e1f0
+2026-03-22T18:18:39.017Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:18:48.658Z CLI info  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:18:48.718Z CLI info  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:18:49.274Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  stopBuild: x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr request={"finished_at":"2026-03-22T18:18:48.653Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:18:49.276Z CLI info  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:18:49.598Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr]  [29cd5610-63d7-4393-be92-4de1d3e3be42]  Visit https://automation.browserstack.com/builds/x3qpnrbbnavq9fguqpkb0x7j4gji1tuduxscnzmr to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:20:38.657Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:20:38.751Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"appium:platformName":"Android","appium:platformVersion":"13","appium:deviceName":"Google Pixel 7 Pro","appium:automationName":"UiAutomator2","appium:app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","appium:autoGrantPermissions":true,"wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":false,"buildIdentifier":"${BUILD_NUMBER}","browserstackLocal":true,"app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","testObservability":true,"testObservabilityOptions":{"buildTag":["bstack_sample"]},"browserStackLocalOptions":{"forcelocal":false,"localIdentifier":"webdriverio-appium-app-browserstack-repo"},"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":["bstack_sample"]}
+2026-03-22T18:20:38.752Z CLI info     Skipping buildIdentifier as buildName is not set or is set to null
+2026-03-22T18:20:38.769Z CLI info     Should start debug utility: undefined
+2026-03-22T18:20:38.775Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [8c581a34-7e48-49a3-b637-b7f8919b7973]  Starting testhub from 38952:0
+2026-03-22T18:20:38.776Z CLI info  [abdelazizsamir_f45tEd]   [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:20:38.778Z CLI info  [abdelazizsamir_f45tEd]   [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:20:39.479Z CLI info  [abdelazizsamir_f45tEd]   [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:20:39.480Z CLI info  [abdelazizsamir_f45tEd]   [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:20:39.481Z CLI info  [abdelazizsamir_f45tEd]   [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:20:39.996Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [8c581a34-7e48-49a3-b637-b7f8919b7973]  startBuild: response=lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8
+2026-03-22T18:20:39.998Z CLI info  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:20:40.462Z CLI info  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:20:40.878Z CLI error [percy:percy]  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  Percy unable to fetch project token: [object Object]
+2026-03-22T18:20:40.878Z CLI error  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  error invoking callback for eventName: {}
+2026-03-22T18:20:40.879Z CLI error  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-03-22T18:20:49.298Z CLI info [appautomate:service]  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  Using app: bs://e18595939066ebcd9e037de0983b31c86a10e1f0
+2026-03-22T18:21:04.976Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:21:14.711Z CLI info  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:21:14.724Z CLI info  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:21:15.522Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  stopBuild: lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8 request={"finished_at":"2026-03-22T18:21:14.710Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:21:15.545Z CLI info  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:21:16.424Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8]  [8c581a34-7e48-49a3-b637-b7f8919b7973]  Visit https://automation.browserstack.com/builds/lzck4lb3tzdteolbvt0oomdchqdn182rzna2llc8 to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:24:36.236Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:24:36.324Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","platformVersion":"13","deviceName":"Google Pixel 7 Pro","automationName":"UiAutomator2","app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:24:36.335Z CLI info     Should start debug utility: undefined
+2026-03-22T18:24:36.338Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [506cb928-5826-4fff-847b-e49b16955cff]  Starting testhub from 21668:0
+2026-03-22T18:24:36.339Z CLI info  [abdelazizsamir_f45tEd]   [506cb928-5826-4fff-847b-e49b16955cff]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:24:36.340Z CLI info  [abdelazizsamir_f45tEd]   [506cb928-5826-4fff-847b-e49b16955cff]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:24:36.809Z CLI info  [abdelazizsamir_f45tEd]   [506cb928-5826-4fff-847b-e49b16955cff]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:24:36.810Z CLI info  [abdelazizsamir_f45tEd]   [506cb928-5826-4fff-847b-e49b16955cff]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:24:36.810Z CLI info  [abdelazizsamir_f45tEd]   [506cb928-5826-4fff-847b-e49b16955cff]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:24:37.715Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [506cb928-5826-4fff-847b-e49b16955cff]  startBuild: response=jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu
+2026-03-22T18:24:37.717Z CLI info  [abdelazizsamir_f45tEd]  [jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu]  [506cb928-5826-4fff-847b-e49b16955cff]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:24:42.780Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu]  [506cb928-5826-4fff-847b-e49b16955cff]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:24:44.096Z CLI info  [abdelazizsamir_f45tEd]  [jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu]  [506cb928-5826-4fff-847b-e49b16955cff]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:24:44.104Z CLI info  [abdelazizsamir_f45tEd]  [jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu]  [506cb928-5826-4fff-847b-e49b16955cff]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:24:44.658Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu]  [506cb928-5826-4fff-847b-e49b16955cff]  stopBuild: jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu request={"finished_at":"2026-03-22T18:24:44.096Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:24:44.660Z CLI info  [abdelazizsamir_f45tEd]  [jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu]  [506cb928-5826-4fff-847b-e49b16955cff]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:24:44.975Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu]  [506cb928-5826-4fff-847b-e49b16955cff]  Visit https://automation.browserstack.com/builds/jzuzhakd9ft3ritkbvdtwyukkmlxhcpn2mp2qyqu to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:24:58.571Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:24:58.619Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","platformVersion":"13","deviceName":"Google Pixel 7 Pro","automationName":"UiAutomator2","app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:24:58.634Z CLI info     Should start debug utility: undefined
+2026-03-22T18:24:58.638Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [aff20547-6522-4362-b07d-afbfd8a805b0]  Starting testhub from 45212:0
+2026-03-22T18:24:58.639Z CLI info  [abdelazizsamir_f45tEd]   [aff20547-6522-4362-b07d-afbfd8a805b0]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:24:58.640Z CLI info  [abdelazizsamir_f45tEd]   [aff20547-6522-4362-b07d-afbfd8a805b0]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:24:58.969Z CLI info  [abdelazizsamir_f45tEd]   [aff20547-6522-4362-b07d-afbfd8a805b0]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:24:58.969Z CLI info  [abdelazizsamir_f45tEd]   [aff20547-6522-4362-b07d-afbfd8a805b0]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:24:58.970Z CLI info  [abdelazizsamir_f45tEd]   [aff20547-6522-4362-b07d-afbfd8a805b0]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:24:59.303Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [aff20547-6522-4362-b07d-afbfd8a805b0]  startBuild: response=vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem
+2026-03-22T18:24:59.305Z CLI info  [abdelazizsamir_f45tEd]  [vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem]  [aff20547-6522-4362-b07d-afbfd8a805b0]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:25:02.130Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem]  [aff20547-6522-4362-b07d-afbfd8a805b0]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:25:10.076Z CLI info  [abdelazizsamir_f45tEd]  [vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem]  [aff20547-6522-4362-b07d-afbfd8a805b0]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:25:10.081Z CLI info  [abdelazizsamir_f45tEd]  [vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem]  [aff20547-6522-4362-b07d-afbfd8a805b0]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:25:10.501Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem]  [aff20547-6522-4362-b07d-afbfd8a805b0]  stopBuild: vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem request={"finished_at":"2026-03-22T18:25:10.076Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:25:10.501Z CLI info  [abdelazizsamir_f45tEd]  [vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem]  [aff20547-6522-4362-b07d-afbfd8a805b0]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:25:10.749Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem]  [aff20547-6522-4362-b07d-afbfd8a805b0]  Visit https://automation.browserstack.com/builds/vl1jzxh4po1rbwty18li6epxce4v2qxbsqvuadem to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:25:27.406Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:25:27.503Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","platformVersion":"13","deviceName":"Google Pixel 7 Pro","automationName":"UiAutomator2","app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:25:27.520Z CLI info     Should start debug utility: undefined
+2026-03-22T18:25:27.524Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [ee33402f-6fc7-4511-b304-0682e8485825]  Starting testhub from 49124:0
+2026-03-22T18:25:27.527Z CLI info  [abdelazizsamir_f45tEd]   [ee33402f-6fc7-4511-b304-0682e8485825]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:25:27.529Z CLI info  [abdelazizsamir_f45tEd]   [ee33402f-6fc7-4511-b304-0682e8485825]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:25:27.873Z CLI info  [abdelazizsamir_f45tEd]   [ee33402f-6fc7-4511-b304-0682e8485825]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:25:27.874Z CLI info  [abdelazizsamir_f45tEd]   [ee33402f-6fc7-4511-b304-0682e8485825]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:25:27.875Z CLI info  [abdelazizsamir_f45tEd]   [ee33402f-6fc7-4511-b304-0682e8485825]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:25:28.267Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [ee33402f-6fc7-4511-b304-0682e8485825]  startBuild: response=7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi
+2026-03-22T18:25:28.268Z CLI info  [abdelazizsamir_f45tEd]  [7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi]  [ee33402f-6fc7-4511-b304-0682e8485825]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:25:31.129Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi]  [ee33402f-6fc7-4511-b304-0682e8485825]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:25:31.836Z CLI info  [abdelazizsamir_f45tEd]  [7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi]  [ee33402f-6fc7-4511-b304-0682e8485825]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:25:31.850Z CLI info  [abdelazizsamir_f45tEd]  [7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi]  [ee33402f-6fc7-4511-b304-0682e8485825]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:25:32.283Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi]  [ee33402f-6fc7-4511-b304-0682e8485825]  stopBuild: 7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi request={"finished_at":"2026-03-22T18:25:31.835Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:25:32.284Z CLI info  [abdelazizsamir_f45tEd]  [7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi]  [ee33402f-6fc7-4511-b304-0682e8485825]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:25:32.549Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi]  [ee33402f-6fc7-4511-b304-0682e8485825]  Visit https://automation.browserstack.com/builds/7qjytjdgmdncdykp9p3vsvxkhgp9lo1abcwex0fi to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:25:49.998Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:25:50.058Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","platformVersion":"13","deviceName":"Google Pixel 7 Pro","automationName":"UiAutomator2","app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:25:50.067Z CLI info     Should start debug utility: undefined
+2026-03-22T18:25:50.070Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  Starting testhub from 45020:0
+2026-03-22T18:25:50.071Z CLI info  [abdelazizsamir_f45tEd]   [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:25:50.073Z CLI info  [abdelazizsamir_f45tEd]   [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:25:50.564Z CLI info  [abdelazizsamir_f45tEd]   [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:25:50.564Z CLI info  [abdelazizsamir_f45tEd]   [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:25:50.565Z CLI info  [abdelazizsamir_f45tEd]   [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:25:51.290Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  startBuild: response=kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k
+2026-03-22T18:25:51.292Z CLI info  [abdelazizsamir_f45tEd]  [kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k]  [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:25:53.638Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k]  [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:25:54.326Z CLI info  [abdelazizsamir_f45tEd]  [kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k]  [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:25:54.329Z CLI info  [abdelazizsamir_f45tEd]  [kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k]  [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:25:54.818Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k]  [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  stopBuild: kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k request={"finished_at":"2026-03-22T18:25:54.326Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:25:54.820Z CLI info  [abdelazizsamir_f45tEd]  [kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k]  [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:25:55.085Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k]  [2a54e44e-dd5f-42ab-94e0-41ed5e83d5aa]  Visit https://automation.browserstack.com/builds/kbwc6f2p3efmmgmeiuzt0hmiggngeoaskq2nzt7k to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:26:12.495Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:26:12.530Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","platformVersion":"13","deviceName":"Google Pixel 7 Pro","automationName":"UiAutomator2","app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:26:12.540Z CLI info     Should start debug utility: undefined
+2026-03-22T18:26:12.544Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  Starting testhub from 40900:0
+2026-03-22T18:26:12.545Z CLI info  [abdelazizsamir_f45tEd]   [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:26:12.547Z CLI info  [abdelazizsamir_f45tEd]   [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:26:12.873Z CLI info  [abdelazizsamir_f45tEd]   [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:26:12.873Z CLI info  [abdelazizsamir_f45tEd]   [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:26:12.873Z CLI info  [abdelazizsamir_f45tEd]   [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:26:13.167Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  startBuild: response=dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql
+2026-03-22T18:26:13.168Z CLI info  [abdelazizsamir_f45tEd]  [dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql]  [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:26:15.172Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql]  [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:26:15.748Z CLI info  [abdelazizsamir_f45tEd]  [dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql]  [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:26:15.751Z CLI info  [abdelazizsamir_f45tEd]  [dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql]  [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:26:16.163Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql]  [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  stopBuild: dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql request={"finished_at":"2026-03-22T18:26:15.748Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:26:16.164Z CLI info  [abdelazizsamir_f45tEd]  [dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql]  [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:26:16.439Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql]  [b8ae22e7-479a-4f15-aac1-c518ba4d7a26]  Visit https://automation.browserstack.com/builds/dmfnetxvre3xsgkbcwjp20xzffsth9j46ab8ajql to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:29:47.751Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:29:47.806Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","platformVersion":"13","deviceName":"Google Pixel 7 Pro","automationName":"UiAutomator2","app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:29:47.816Z CLI info     Should start debug utility: undefined
+2026-03-22T18:29:47.819Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [b9f996d8-e7af-44cb-b310-90b7a2d61535]  Starting testhub from 25520:0
+2026-03-22T18:29:47.820Z CLI info  [abdelazizsamir_f45tEd]   [b9f996d8-e7af-44cb-b310-90b7a2d61535]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:29:47.821Z CLI info  [abdelazizsamir_f45tEd]   [b9f996d8-e7af-44cb-b310-90b7a2d61535]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:29:48.402Z CLI info  [abdelazizsamir_f45tEd]   [b9f996d8-e7af-44cb-b310-90b7a2d61535]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:29:48.403Z CLI info  [abdelazizsamir_f45tEd]   [b9f996d8-e7af-44cb-b310-90b7a2d61535]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:29:48.403Z CLI info  [abdelazizsamir_f45tEd]   [b9f996d8-e7af-44cb-b310-90b7a2d61535]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:29:48.886Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [b9f996d8-e7af-44cb-b310-90b7a2d61535]  startBuild: response=ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea
+2026-03-22T18:29:48.887Z CLI info  [abdelazizsamir_f45tEd]  [ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea]  [b9f996d8-e7af-44cb-b310-90b7a2d61535]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:29:53.527Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea]  [b9f996d8-e7af-44cb-b310-90b7a2d61535]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:29:54.767Z CLI info  [abdelazizsamir_f45tEd]  [ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea]  [b9f996d8-e7af-44cb-b310-90b7a2d61535]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:29:54.776Z CLI info  [abdelazizsamir_f45tEd]  [ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea]  [b9f996d8-e7af-44cb-b310-90b7a2d61535]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:29:55.298Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea]  [b9f996d8-e7af-44cb-b310-90b7a2d61535]  stopBuild: ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea request={"finished_at":"2026-03-22T18:29:54.766Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:29:55.299Z CLI info  [abdelazizsamir_f45tEd]  [ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea]  [b9f996d8-e7af-44cb-b310-90b7a2d61535]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:29:55.568Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea]  [b9f996d8-e7af-44cb-b310-90b7a2d61535]  Visit https://automation.browserstack.com/builds/ktdmhky5n40oja6avopsylnldyzn0hlkmseamrea to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:30:24.229Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:30:24.277Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"13","appium:deviceName":"Google Pixel 7 Pro","appium:automationName":"UiAutomator2","appium:app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","appium:autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:30:24.301Z CLI info     Should start debug utility: undefined
+2026-03-22T18:30:24.305Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [64c9e338-1c07-4823-a381-d06d8ec4e116]  Starting testhub from 18936:0
+2026-03-22T18:30:24.306Z CLI info  [abdelazizsamir_f45tEd]   [64c9e338-1c07-4823-a381-d06d8ec4e116]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:30:24.308Z CLI info  [abdelazizsamir_f45tEd]   [64c9e338-1c07-4823-a381-d06d8ec4e116]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:30:24.697Z CLI info  [abdelazizsamir_f45tEd]   [64c9e338-1c07-4823-a381-d06d8ec4e116]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:30:24.697Z CLI info  [abdelazizsamir_f45tEd]   [64c9e338-1c07-4823-a381-d06d8ec4e116]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:30:24.698Z CLI info  [abdelazizsamir_f45tEd]   [64c9e338-1c07-4823-a381-d06d8ec4e116]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:30:25.116Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [64c9e338-1c07-4823-a381-d06d8ec4e116]  startBuild: response=5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx
+2026-03-22T18:30:25.117Z CLI info  [abdelazizsamir_f45tEd]  [5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx]  [64c9e338-1c07-4823-a381-d06d8ec4e116]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:30:27.619Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx]  [64c9e338-1c07-4823-a381-d06d8ec4e116]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:30:35.491Z CLI info  [abdelazizsamir_f45tEd]  [5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx]  [64c9e338-1c07-4823-a381-d06d8ec4e116]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:30:35.494Z CLI info  [abdelazizsamir_f45tEd]  [5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx]  [64c9e338-1c07-4823-a381-d06d8ec4e116]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:30:35.913Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx]  [64c9e338-1c07-4823-a381-d06d8ec4e116]  stopBuild: 5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx request={"finished_at":"2026-03-22T18:30:35.491Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:30:35.914Z CLI info  [abdelazizsamir_f45tEd]  [5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx]  [64c9e338-1c07-4823-a381-d06d8ec4e116]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:30:36.187Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx]  [64c9e338-1c07-4823-a381-d06d8ec4e116]  Visit https://automation.browserstack.com/builds/5ovg3lkekjuigtbjridlvknk4bl67hbck85bqnbx to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:30:48.667Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:30:48.714Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"13","appium:deviceName":"Google Pixel 7 Pro","appium:automationName":"UiAutomator2","appium:app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","appium:autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:30:48.724Z CLI info     Should start debug utility: undefined
+2026-03-22T18:30:48.727Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [775a51fa-956e-4ad6-8cf3-4b23518417f9]  Starting testhub from 22948:0
+2026-03-22T18:30:48.728Z CLI info  [abdelazizsamir_f45tEd]   [775a51fa-956e-4ad6-8cf3-4b23518417f9]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:30:48.730Z CLI info  [abdelazizsamir_f45tEd]   [775a51fa-956e-4ad6-8cf3-4b23518417f9]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:30:49.338Z CLI info  [abdelazizsamir_f45tEd]   [775a51fa-956e-4ad6-8cf3-4b23518417f9]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:30:49.339Z CLI info  [abdelazizsamir_f45tEd]   [775a51fa-956e-4ad6-8cf3-4b23518417f9]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:30:49.339Z CLI info  [abdelazizsamir_f45tEd]   [775a51fa-956e-4ad6-8cf3-4b23518417f9]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:30:49.843Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [775a51fa-956e-4ad6-8cf3-4b23518417f9]  startBuild: response=t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg
+2026-03-22T18:30:49.845Z CLI info  [abdelazizsamir_f45tEd]  [t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg]  [775a51fa-956e-4ad6-8cf3-4b23518417f9]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:30:52.765Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg]  [775a51fa-956e-4ad6-8cf3-4b23518417f9]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:31:00.870Z CLI info  [abdelazizsamir_f45tEd]  [t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg]  [775a51fa-956e-4ad6-8cf3-4b23518417f9]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:31:00.886Z CLI info  [abdelazizsamir_f45tEd]  [t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg]  [775a51fa-956e-4ad6-8cf3-4b23518417f9]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:31:01.860Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg]  [775a51fa-956e-4ad6-8cf3-4b23518417f9]  stopBuild: t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg request={"finished_at":"2026-03-22T18:31:00.868Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:31:01.865Z CLI info  [abdelazizsamir_f45tEd]  [t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg]  [775a51fa-956e-4ad6-8cf3-4b23518417f9]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:31:02.186Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg]  [775a51fa-956e-4ad6-8cf3-4b23518417f9]  Visit https://automation.browserstack.com/builds/t51vhiudsr4cqlvp0gn9joiljc2qh3e1fyjesocg to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:31:19.360Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:31:19.445Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"13.0","appium:deviceName":"Google Pixel 7 Pro","appium:automationName":"UiAutomator2","appium:app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","appium:autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:31:19.462Z CLI info     Should start debug utility: undefined
+2026-03-22T18:31:19.466Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [a7149296-b37d-48cd-a187-bf398da3d7cf]  Starting testhub from 50428:0
+2026-03-22T18:31:19.467Z CLI info  [abdelazizsamir_f45tEd]   [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:31:19.469Z CLI info  [abdelazizsamir_f45tEd]   [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:31:19.941Z CLI info  [abdelazizsamir_f45tEd]   [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:31:19.941Z CLI info  [abdelazizsamir_f45tEd]   [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:31:19.942Z CLI info  [abdelazizsamir_f45tEd]   [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:31:20.326Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [a7149296-b37d-48cd-a187-bf398da3d7cf]  startBuild: response=0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78
+2026-03-22T18:31:20.327Z CLI info  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:31:24.326Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:31:38.256Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'f38a3f04-2f11-4467-8ded-3f096f601304',
+    integrations: { browserstack: [Object] }
+  }
+} to 50428:0
+2026-03-22T18:31:38.259Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'f38a3f04-2f11-4467-8ded-3f096f601304',
+    name: 'user should be able to skip tutorial, add a note & delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        // spalash screen\r\n' +
+        '        await splashScreen.skipTutorial();\r\n' +
+        '        // top nav screen\r\n' +
+        '        await expect(topNavBar.logo).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'user should be able to skip tutorial, add a note & delete the note',
+    scope: 'Appium mobile test - user should be able to skip tutorial, add a note & delete the note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-22T18:31:38.219Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 50428:0
+2026-03-22T18:31:38.417Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'f38a3f04-2f11-4467-8ded-3f096f601304',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '1237a562c07878ba136ec3cc6dd8fde354ee3992',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#9' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'google pixel 7 pro',
+              chromedriverPorts: [ [ 18100, 18110 ] ],
+              chromedriverArgs: [ '--adb-port=5038' ],
+              automationName: 'uiautomator2',
+              systemPort: 8200,
+              autoGrantPermissions: true,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: '28051FDH3006LH',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#9' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '28051FDH3006LH',
+            chromedriverPorts: [ [ 18100, 18110 ] ],
+            chromedriverArgs: [ '--adb-port=5038' ],
+            automationName: 'uiautomator2',
+            systemPort: 8200,
+            autoGrantPermissions: true,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: '28051FDH3006LH',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '28051FDH3006LH',
+            deviceApiLevel: 33,
+            platformVersion: '13',
+            deviceScreenSize: '1080x2340',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 7 Pro',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 130,
+            viewportRect: { left: 0, top: 130, width: 1080, height: 2049 }
+          },
+          platform: 'Android',
+          platform_version: '13',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'f38a3f04-2f11-4467-8ded-3f096f601304',
+      name: 'user should be able to skip tutorial, add a note & delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        // spalash screen\r\n' +
+          '        await splashScreen.skipTutorial();\r\n' +
+          '        // top nav screen\r\n' +
+          '        await expect(topNavBar.logo).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'user should be able to skip tutorial, add a note & delete the note',
+      scope: 'Appium mobile test - user should be able to skip tutorial, add a note & delete the note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-22T18:31:38.219Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 50428:0
+2026-03-22T18:31:38.418Z CLI info  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-22T18:31:40.314Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.0","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"f38a3f04-2f11-4467-8ded-3f096f601304","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Appium mobile test - user should be able to skip tutorial, add a note & delete the note","test_name":"user should be able to skip tutorial, add a note & delete the note","test_code":"async () => {\r\n        // spalash screen\r\n        await splashScreen.skipTutorial();\r\n        // top nav screen\r\n        await expect(topNavBar.logo).toBeDisplayed();\r\n    }","test_file_path":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_location":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_scope":"Appium mobile test - user should be able to skip tutorial, add a note & delete the note","test_scopes":["Appium mobile test"],"test_started_at":"2026-03-22T18:31:38.219Z","automate_session_name":"Appium mobile test - user should be able to skip tutorial, add a note & delete the note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-22T18:31:40.283Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-22T18:31:40.315Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'f38a3f04-2f11-4467-8ded-3f096f601304',
+    name: 'user should be able to skip tutorial, add a note & delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        // spalash screen\r\n' +
+        '        await splashScreen.skipTutorial();\r\n' +
+        '        // top nav screen\r\n' +
+        '        await expect(topNavBar.logo).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'user should be able to skip tutorial, add a note & delete the note',
+    scope: 'Appium mobile test - user should be able to skip tutorial, add a note & delete the note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'passed',
+    duration_in_ms: 2064,
+    started_at: '2026-03-22T18:31:38.219Z',
+    finished_at: '2026-03-22T18:31:40.283Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 50428:0
+2026-03-22T18:31:40.419Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '15a8e6fe-ad76-4d7c-b079-69ee41f4eba1',
+    integrations: { browserstack: [Object] }
+  }
+} to 50428:0
+2026-03-22T18:31:40.424Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '15a8e6fe-ad76-4d7c-b079-69ee41f4eba1',
+    name: 'should be able to add note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        // top nav screen \r\n' +
+        '        await topNavBar.clickAddButton();\r\n' +
+        '        // note type modal\r\n' +
+        '        await noteTypeModal.selectTextNote();\r\n' +
+        '        // note creation screen\r\n' +
+        '        await notesCreationScreen.enterNoteText(noteText);\r\n' +
+        '        // top nav bar\r\n' +
+        '        await topNavBar.clickBackButton();\r\n' +
+        '        await topNavBar.clickBackButton();\r\n' +
+        '        // notes listing page\r\n' +
+        '        expect(notesListingScreen.noteTitles)\r\n' +
+        "            .toHaveText('This is a test note');\r\n" +
+        '    }'
+    },
+    identifier: 'should be able to add note',
+    scope: 'Appium mobile test - should be able to add note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-22T18:31:40.369Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 50428:0
+2026-03-22T18:31:40.425Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'f38a3f04-2f11-4467-8ded-3f096f601304',
+      name: 'user should be able to skip tutorial, add a note & delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        // spalash screen\r\n' +
+          '        await splashScreen.skipTutorial();\r\n' +
+          '        // top nav screen\r\n' +
+          '        await expect(topNavBar.logo).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'user should be able to skip tutorial, add a note & delete the note',
+      scope: 'Appium mobile test - user should be able to skip tutorial, add a note & delete the note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'passed',
+      duration_in_ms: 2064,
+      started_at: '2026-03-22T18:31:38.219Z',
+      finished_at: '2026-03-22T18:31:40.283Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '15a8e6fe-ad76-4d7c-b079-69ee41f4eba1',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '1237a562c07878ba136ec3cc6dd8fde354ee3992',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#9' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'google pixel 7 pro',
+              chromedriverPorts: [ [ 18100, 18110 ] ],
+              chromedriverArgs: [ '--adb-port=5038' ],
+              automationName: 'uiautomator2',
+              systemPort: 8200,
+              autoGrantPermissions: true,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: '28051FDH3006LH',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#9' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '28051FDH3006LH',
+            chromedriverPorts: [ [ 18100, 18110 ] ],
+            chromedriverArgs: [ '--adb-port=5038' ],
+            automationName: 'uiautomator2',
+            systemPort: 8200,
+            autoGrantPermissions: true,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: '28051FDH3006LH',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '28051FDH3006LH',
+            deviceApiLevel: 33,
+            platformVersion: '13',
+            deviceScreenSize: '1080x2340',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 7 Pro',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 130,
+            viewportRect: { left: 0, top: 130, width: 1080, height: 2049 }
+          },
+          platform: 'Android',
+          platform_version: '13',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '15a8e6fe-ad76-4d7c-b079-69ee41f4eba1',
+      name: 'should be able to add note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        // top nav screen \r\n' +
+          '        await topNavBar.clickAddButton();\r\n' +
+          '        // note type modal\r\n' +
+          '        await noteTypeModal.selectTextNote();\r\n' +
+          '        // note creation screen\r\n' +
+          '        await notesCreationScreen.enterNoteText(noteText);\r\n' +
+          '        // top nav bar\r\n' +
+          '        await topNavBar.clickBackButton();\r\n' +
+          '        await topNavBar.clickBackButton();\r\n' +
+          '        // notes listing page\r\n' +
+          '        expect(notesListingScreen.noteTitles)\r\n' +
+          "            .toHaveText('This is a test note');\r\n" +
+          '    }'
+      },
+      identifier: 'should be able to add note',
+      scope: 'Appium mobile test - should be able to add note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-22T18:31:40.369Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 50428:0
+2026-03-22T18:31:40.426Z CLI info  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-22T18:31:47.095Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.0","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"15a8e6fe-ad76-4d7c-b079-69ee41f4eba1","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Appium mobile test - should be able to add note","test_name":"should be able to add note","test_code":"async () => {\r\n        // top nav screen \r\n        await topNavBar.clickAddButton();\r\n        // note type modal\r\n        await noteTypeModal.selectTextNote();\r\n        // note creation screen\r\n        await notesCreationScreen.enterNoteText(noteText);\r\n        // top nav bar\r\n        await topNavBar.clickBackButton();\r\n        await topNavBar.clickBackButton();\r\n        // notes listing page\r\n        expect(notesListingScreen.noteTitles)\r\n            .toHaveText('This is a test note');\r\n    }","test_file_path":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_location":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_scope":"Appium mobile test - should be able to add note","test_scopes":["Appium mobile test"],"test_started_at":"2026-03-22T18:31:40.369Z","automate_session_name":"Appium mobile test - should be able to add note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-22T18:31:47.087Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-22T18:31:47.097Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '15a8e6fe-ad76-4d7c-b079-69ee41f4eba1',
+    name: 'should be able to add note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        // top nav screen \r\n' +
+        '        await topNavBar.clickAddButton();\r\n' +
+        '        // note type modal\r\n' +
+        '        await noteTypeModal.selectTextNote();\r\n' +
+        '        // note creation screen\r\n' +
+        '        await notesCreationScreen.enterNoteText(noteText);\r\n' +
+        '        // top nav bar\r\n' +
+        '        await topNavBar.clickBackButton();\r\n' +
+        '        await topNavBar.clickBackButton();\r\n' +
+        '        // notes listing page\r\n' +
+        '        expect(notesListingScreen.noteTitles)\r\n' +
+        "            .toHaveText('This is a test note');\r\n" +
+        '    }'
+    },
+    identifier: 'should be able to add note',
+    scope: 'Appium mobile test - should be able to add note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'passed',
+    duration_in_ms: 6718,
+    started_at: '2026-03-22T18:31:40.369Z',
+    finished_at: '2026-03-22T18:31:47.087Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 50428:0
+2026-03-22T18:31:47.132Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '8d6c3f3b-c94a-4d26-bf16-3b127f69aa9e',
+    integrations: { browserstack: [Object] }
+  }
+} to 50428:0
+2026-03-22T18:31:47.133Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '8d6c3f3b-c94a-4d26-bf16-3b127f69aa9e',
+    name: 'should be able to delete note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        await notesListingScreen.clickNoteByText(noteText);\r\n' +
+        '        // top nav screen\r\n' +
+        '        await topNavBar.clickMoreButton();\r\n' +
+        '        // notes options widget\r\n' +
+        '        await notesOptionsWidget.clickDelete();\r\n' +
+        '        // alert dialog\r\n' +
+        '        await expect(alertDialog.message)\r\n' +
+        "            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n" +
+        '        await alertDialog.confirm();\r\n' +
+        '        // notes listing page\r\n' +
+        '        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n' +
+        '        // top nav screen\r\n' +
+        '        await topNavBar.clickNavIcon();\r\n' +
+        '        // main side menu\r\n' +
+        '        await mainSideMenu.clickTrashCan();\r\n' +
+        '        // trash can list screen\r\n' +
+        '        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n' +
+        '    }'
+    },
+    identifier: 'should be able to delete note',
+    scope: 'Appium mobile test - should be able to delete note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-22T18:31:47.111Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 50428:0
+2026-03-22T18:31:48.464Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '15a8e6fe-ad76-4d7c-b079-69ee41f4eba1',
+      name: 'should be able to add note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        // top nav screen \r\n' +
+          '        await topNavBar.clickAddButton();\r\n' +
+          '        // note type modal\r\n' +
+          '        await noteTypeModal.selectTextNote();\r\n' +
+          '        // note creation screen\r\n' +
+          '        await notesCreationScreen.enterNoteText(noteText);\r\n' +
+          '        // top nav bar\r\n' +
+          '        await topNavBar.clickBackButton();\r\n' +
+          '        await topNavBar.clickBackButton();\r\n' +
+          '        // notes listing page\r\n' +
+          '        expect(notesListingScreen.noteTitles)\r\n' +
+          "            .toHaveText('This is a test note');\r\n" +
+          '    }'
+      },
+      identifier: 'should be able to add note',
+      scope: 'Appium mobile test - should be able to add note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'passed',
+      duration_in_ms: 6718,
+      started_at: '2026-03-22T18:31:40.369Z',
+      finished_at: '2026-03-22T18:31:47.087Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '8d6c3f3b-c94a-4d26-bf16-3b127f69aa9e',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '1237a562c07878ba136ec3cc6dd8fde354ee3992',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#9' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'google pixel 7 pro',
+              chromedriverPorts: [ [ 18100, 18110 ] ],
+              chromedriverArgs: [ '--adb-port=5038' ],
+              automationName: 'uiautomator2',
+              systemPort: 8200,
+              autoGrantPermissions: true,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: '28051FDH3006LH',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#9' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '28051FDH3006LH',
+            chromedriverPorts: [ [ 18100, 18110 ] ],
+            chromedriverArgs: [ '--adb-port=5038' ],
+            automationName: 'uiautomator2',
+            systemPort: 8200,
+            autoGrantPermissions: true,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: '28051FDH3006LH',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '28051FDH3006LH',
+            deviceApiLevel: 33,
+            platformVersion: '13',
+            deviceScreenSize: '1080x2340',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 7 Pro',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 130,
+            viewportRect: { left: 0, top: 130, width: 1080, height: 2049 }
+          },
+          platform: 'Android',
+          platform_version: '13',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '8d6c3f3b-c94a-4d26-bf16-3b127f69aa9e',
+      name: 'should be able to delete note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        await notesListingScreen.clickNoteByText(noteText);\r\n' +
+          '        // top nav screen\r\n' +
+          '        await topNavBar.clickMoreButton();\r\n' +
+          '        // notes options widget\r\n' +
+          '        await notesOptionsWidget.clickDelete();\r\n' +
+          '        // alert dialog\r\n' +
+          '        await expect(alertDialog.message)\r\n' +
+          "            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n" +
+          '        await alertDialog.confirm();\r\n' +
+          '        // notes listing page\r\n' +
+          '        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n' +
+          '        // top nav screen\r\n' +
+          '        await topNavBar.clickNavIcon();\r\n' +
+          '        // main side menu\r\n' +
+          '        await mainSideMenu.clickTrashCan();\r\n' +
+          '        // trash can list screen\r\n' +
+          '        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n' +
+          '    }'
+      },
+      identifier: 'should be able to delete note',
+      scope: 'Appium mobile test - should be able to delete note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-22T18:31:47.111Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 50428:0
+2026-03-22T18:31:48.465Z CLI info  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-22T18:31:56.870Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.0","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"8d6c3f3b-c94a-4d26-bf16-3b127f69aa9e","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Appium mobile test - should be able to delete note","test_name":"should be able to delete note","test_code":"async () => {\r\n        await notesListingScreen.clickNoteByText(noteText);\r\n        // top nav screen\r\n        await topNavBar.clickMoreButton();\r\n        // notes options widget\r\n        await notesOptionsWidget.clickDelete();\r\n        // alert dialog\r\n        await expect(alertDialog.message)\r\n            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n        await alertDialog.confirm();\r\n        // notes listing page\r\n        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n        // top nav screen\r\n        await topNavBar.clickNavIcon();\r\n        // main side menu\r\n        await mainSideMenu.clickTrashCan();\r\n        // trash can list screen\r\n        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n    }","test_file_path":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_location":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_scope":"Appium mobile test - should be able to delete note","test_scopes":["Appium mobile test"],"test_started_at":"2026-03-22T18:31:47.111Z","automate_session_name":"Appium mobile test - should be able to delete note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-22T18:31:56.864Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-22T18:31:56.872Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '8d6c3f3b-c94a-4d26-bf16-3b127f69aa9e',
+    name: 'should be able to delete note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        await notesListingScreen.clickNoteByText(noteText);\r\n' +
+        '        // top nav screen\r\n' +
+        '        await topNavBar.clickMoreButton();\r\n' +
+        '        // notes options widget\r\n' +
+        '        await notesOptionsWidget.clickDelete();\r\n' +
+        '        // alert dialog\r\n' +
+        '        await expect(alertDialog.message)\r\n' +
+        "            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n" +
+        '        await alertDialog.confirm();\r\n' +
+        '        // notes listing page\r\n' +
+        '        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n' +
+        '        // top nav screen\r\n' +
+        '        await topNavBar.clickNavIcon();\r\n' +
+        '        // main side menu\r\n' +
+        '        await mainSideMenu.clickTrashCan();\r\n' +
+        '        // trash can list screen\r\n' +
+        '        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n' +
+        '    }'
+    },
+    identifier: 'should be able to delete note',
+    scope: 'Appium mobile test - should be able to delete note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'passed',
+    duration_in_ms: 9753,
+    started_at: '2026-03-22T18:31:47.111Z',
+    finished_at: '2026-03-22T18:31:56.864Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 50428:0
+2026-03-22T18:31:58.509Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '8d6c3f3b-c94a-4d26-bf16-3b127f69aa9e',
+      name: 'should be able to delete note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        await notesListingScreen.clickNoteByText(noteText);\r\n' +
+          '        // top nav screen\r\n' +
+          '        await topNavBar.clickMoreButton();\r\n' +
+          '        // notes options widget\r\n' +
+          '        await notesOptionsWidget.clickDelete();\r\n' +
+          '        // alert dialog\r\n' +
+          '        await expect(alertDialog.message)\r\n' +
+          "            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n" +
+          '        await alertDialog.confirm();\r\n' +
+          '        // notes listing page\r\n' +
+          '        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n' +
+          '        // top nav screen\r\n' +
+          '        await topNavBar.clickNavIcon();\r\n' +
+          '        // main side menu\r\n' +
+          '        await mainSideMenu.clickTrashCan();\r\n' +
+          '        // trash can list screen\r\n' +
+          '        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n' +
+          '    }'
+      },
+      identifier: 'should be able to delete note',
+      scope: 'Appium mobile test - should be able to delete note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'passed',
+      duration_in_ms: 9753,
+      started_at: '2026-03-22T18:31:47.111Z',
+      finished_at: '2026-03-22T18:31:56.864Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 50428:0
+2026-03-22T18:31:58.511Z CLI info  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-22T18:31:58.881Z CLI info  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:31:58.888Z CLI info  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:31:59.324Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  stopBuild: 0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78 request={"finished_at":"2026-03-22T18:31:58.880Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:31:59.329Z CLI info  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:31:59.616Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78]  [a7149296-b37d-48cd-a187-bf398da3d7cf]  Visit https://automation.browserstack.com/builds/0uonngxmbk08kivrzdea1prsy39b3lrodfoxpa78 to view build report, insights, and many more debugging information all at one place!
+2026-03-22T18:32:38.906Z CLI info [main]     Server listening on port: 5400
+2026-03-22T18:32:38.946Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"13.0","appium:deviceName":"Google Pixel 7 Pro","appium:automationName":"UiAutomator2","appium:app":"bs://e18595939066ebcd9e037de0983b31c86a10e1f0","appium:autoGrantPermissions":true,"buildName":"Appium Android Test","projectName":"Notes App","sessionName":"Android Test Session","wdioService":"9.26.0"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-22T18:32:38.955Z CLI info     Should start debug utility: undefined
+2026-03-22T18:32:38.958Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [79778451-4d06-4414-94d7-4995f7301ab2]  Starting testhub from 34948:0
+2026-03-22T18:32:38.960Z CLI info  [abdelazizsamir_f45tEd]   [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-22T18:32:38.961Z CLI info  [abdelazizsamir_f45tEd]   [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-22T18:32:39.448Z CLI info  [abdelazizsamir_f45tEd]   [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-22T18:32:39.448Z CLI info  [abdelazizsamir_f45tEd]   [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-03-22T18:32:39.449Z CLI info  [abdelazizsamir_f45tEd]   [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-22T18:32:39.766Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]   [79778451-4d06-4414-94d7-4995f7301ab2]  startBuild: response=qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp
+2026-03-22T18:32:39.768Z CLI info  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:32:41.779Z CLI info [sdk:service]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Driver initialized as primary driver: platformIndex=0
+2026-03-22T18:32:55.426Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '8cfec4ba-7cbd-449a-9342-5be31affe9d9',
+    integrations: { browserstack: [Object] }
+  }
+} to 34948:0
+2026-03-22T18:32:55.432Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '8cfec4ba-7cbd-449a-9342-5be31affe9d9',
+    name: 'user should be able to skip tutorial, add a note & delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        // spalash screen\r\n' +
+        '        await splashScreen.skipTutorial();\r\n' +
+        '        // top nav screen\r\n' +
+        '        await expect(topNavBar.logo).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'user should be able to skip tutorial, add a note & delete the note',
+    scope: 'Appium mobile test - user should be able to skip tutorial, add a note & delete the note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-22T18:32:55.388Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 34948:0
+2026-03-22T18:32:55.823Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '8cfec4ba-7cbd-449a-9342-5be31affe9d9',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '13df59037348551c24d3a5478ff40c8428e12f12',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#10' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'google pixel 7 pro',
+              chromedriverPorts: [ [ 18100, 18110 ] ],
+              chromedriverArgs: [ '--adb-port=5038' ],
+              automationName: 'uiautomator2',
+              systemPort: 8200,
+              autoGrantPermissions: true,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: '2B101FDH300A03',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#10' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '2B101FDH300A03',
+            chromedriverPorts: [ [ 18100, 18110 ] ],
+            chromedriverArgs: [ '--adb-port=5038' ],
+            automationName: 'uiautomator2',
+            systemPort: 8200,
+            autoGrantPermissions: true,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: '2B101FDH300A03',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '2B101FDH300A03',
+            deviceApiLevel: 33,
+            platformVersion: '13',
+            deviceScreenSize: '1080x2340',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 7 Pro',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 130,
+            viewportRect: { left: 0, top: 130, width: 1080, height: 2049 }
+          },
+          platform: 'Android',
+          platform_version: '13',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '8cfec4ba-7cbd-449a-9342-5be31affe9d9',
+      name: 'user should be able to skip tutorial, add a note & delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        // spalash screen\r\n' +
+          '        await splashScreen.skipTutorial();\r\n' +
+          '        // top nav screen\r\n' +
+          '        await expect(topNavBar.logo).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'user should be able to skip tutorial, add a note & delete the note',
+      scope: 'Appium mobile test - user should be able to skip tutorial, add a note & delete the note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-22T18:32:55.388Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 34948:0
+2026-03-22T18:32:55.824Z CLI info  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-22T18:32:57.480Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.0","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"8cfec4ba-7cbd-449a-9342-5be31affe9d9","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Appium mobile test - user should be able to skip tutorial, add a note & delete the note","test_name":"user should be able to skip tutorial, add a note & delete the note","test_code":"async () => {\r\n        // spalash screen\r\n        await splashScreen.skipTutorial();\r\n        // top nav screen\r\n        await expect(topNavBar.logo).toBeDisplayed();\r\n    }","test_file_path":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_location":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_scope":"Appium mobile test - user should be able to skip tutorial, add a note & delete the note","test_scopes":["Appium mobile test"],"test_started_at":"2026-03-22T18:32:55.388Z","automate_session_name":"Appium mobile test - user should be able to skip tutorial, add a note & delete the note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-22T18:32:57.475Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-22T18:32:57.482Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '8cfec4ba-7cbd-449a-9342-5be31affe9d9',
+    name: 'user should be able to skip tutorial, add a note & delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        // spalash screen\r\n' +
+        '        await splashScreen.skipTutorial();\r\n' +
+        '        // top nav screen\r\n' +
+        '        await expect(topNavBar.logo).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: 'user should be able to skip tutorial, add a note & delete the note',
+    scope: 'Appium mobile test - user should be able to skip tutorial, add a note & delete the note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'passed',
+    duration_in_ms: 2087,
+    started_at: '2026-03-22T18:32:55.388Z',
+    finished_at: '2026-03-22T18:32:57.475Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 34948:0
+2026-03-22T18:32:57.509Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '654c1f56-dc91-4434-9411-d60951cad898',
+    integrations: { browserstack: [Object] }
+  }
+} to 34948:0
+2026-03-22T18:32:57.510Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '654c1f56-dc91-4434-9411-d60951cad898',
+    name: 'should be able to add note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        // top nav screen \r\n' +
+        '        await topNavBar.clickAddButton();\r\n' +
+        '        // note type modal\r\n' +
+        '        await noteTypeModal.selectTextNote();\r\n' +
+        '        // note creation screen\r\n' +
+        '        await notesCreationScreen.enterNoteText(noteText);\r\n' +
+        '        // top nav bar\r\n' +
+        '        await topNavBar.clickBackButton();\r\n' +
+        '        await topNavBar.clickBackButton();\r\n' +
+        '        // notes listing page\r\n' +
+        '        expect(notesListingScreen.noteTitles)\r\n' +
+        "            .toHaveText('This is a test note');\r\n" +
+        '    }'
+    },
+    identifier: 'should be able to add note',
+    scope: 'Appium mobile test - should be able to add note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-22T18:32:57.492Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 34948:0
+2026-03-22T18:32:57.832Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '8cfec4ba-7cbd-449a-9342-5be31affe9d9',
+      name: 'user should be able to skip tutorial, add a note & delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        // spalash screen\r\n' +
+          '        await splashScreen.skipTutorial();\r\n' +
+          '        // top nav screen\r\n' +
+          '        await expect(topNavBar.logo).toBeDisplayed();\r\n' +
+          '    }'
+      },
+      identifier: 'user should be able to skip tutorial, add a note & delete the note',
+      scope: 'Appium mobile test - user should be able to skip tutorial, add a note & delete the note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'passed',
+      duration_in_ms: 2087,
+      started_at: '2026-03-22T18:32:55.388Z',
+      finished_at: '2026-03-22T18:32:57.475Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '654c1f56-dc91-4434-9411-d60951cad898',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '13df59037348551c24d3a5478ff40c8428e12f12',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#10' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'google pixel 7 pro',
+              chromedriverPorts: [ [ 18100, 18110 ] ],
+              chromedriverArgs: [ '--adb-port=5038' ],
+              automationName: 'uiautomator2',
+              systemPort: 8200,
+              autoGrantPermissions: true,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: '2B101FDH300A03',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#10' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '2B101FDH300A03',
+            chromedriverPorts: [ [ 18100, 18110 ] ],
+            chromedriverArgs: [ '--adb-port=5038' ],
+            automationName: 'uiautomator2',
+            systemPort: 8200,
+            autoGrantPermissions: true,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: '2B101FDH300A03',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '2B101FDH300A03',
+            deviceApiLevel: 33,
+            platformVersion: '13',
+            deviceScreenSize: '1080x2340',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 7 Pro',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 130,
+            viewportRect: { left: 0, top: 130, width: 1080, height: 2049 }
+          },
+          platform: 'Android',
+          platform_version: '13',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '654c1f56-dc91-4434-9411-d60951cad898',
+      name: 'should be able to add note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        // top nav screen \r\n' +
+          '        await topNavBar.clickAddButton();\r\n' +
+          '        // note type modal\r\n' +
+          '        await noteTypeModal.selectTextNote();\r\n' +
+          '        // note creation screen\r\n' +
+          '        await notesCreationScreen.enterNoteText(noteText);\r\n' +
+          '        // top nav bar\r\n' +
+          '        await topNavBar.clickBackButton();\r\n' +
+          '        await topNavBar.clickBackButton();\r\n' +
+          '        // notes listing page\r\n' +
+          '        expect(notesListingScreen.noteTitles)\r\n' +
+          "            .toHaveText('This is a test note');\r\n" +
+          '    }'
+      },
+      identifier: 'should be able to add note',
+      scope: 'Appium mobile test - should be able to add note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-22T18:32:57.492Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 34948:0
+2026-03-22T18:32:57.833Z CLI info  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-22T18:33:04.629Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.0","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"654c1f56-dc91-4434-9411-d60951cad898","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Appium mobile test - should be able to add note","test_name":"should be able to add note","test_code":"async () => {\r\n        // top nav screen \r\n        await topNavBar.clickAddButton();\r\n        // note type modal\r\n        await noteTypeModal.selectTextNote();\r\n        // note creation screen\r\n        await notesCreationScreen.enterNoteText(noteText);\r\n        // top nav bar\r\n        await topNavBar.clickBackButton();\r\n        await topNavBar.clickBackButton();\r\n        // notes listing page\r\n        expect(notesListingScreen.noteTitles)\r\n            .toHaveText('This is a test note');\r\n    }","test_file_path":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_location":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_scope":"Appium mobile test - should be able to add note","test_scopes":["Appium mobile test"],"test_started_at":"2026-03-22T18:32:57.492Z","automate_session_name":"Appium mobile test - should be able to add note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-22T18:33:04.620Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-22T18:33:04.631Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '654c1f56-dc91-4434-9411-d60951cad898',
+    name: 'should be able to add note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        // top nav screen \r\n' +
+        '        await topNavBar.clickAddButton();\r\n' +
+        '        // note type modal\r\n' +
+        '        await noteTypeModal.selectTextNote();\r\n' +
+        '        // note creation screen\r\n' +
+        '        await notesCreationScreen.enterNoteText(noteText);\r\n' +
+        '        // top nav bar\r\n' +
+        '        await topNavBar.clickBackButton();\r\n' +
+        '        await topNavBar.clickBackButton();\r\n' +
+        '        // notes listing page\r\n' +
+        '        expect(notesListingScreen.noteTitles)\r\n' +
+        "            .toHaveText('This is a test note');\r\n" +
+        '    }'
+    },
+    identifier: 'should be able to add note',
+    scope: 'Appium mobile test - should be able to add note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'passed',
+    duration_in_ms: 7128,
+    started_at: '2026-03-22T18:32:57.492Z',
+    finished_at: '2026-03-22T18:33:04.620Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 34948:0
+2026-03-22T18:33:04.664Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '6e225ece-81a8-49c4-8e1e-e6d9d90d1bf9',
+    integrations: { browserstack: [Object] }
+  }
+} to 34948:0
+2026-03-22T18:33:04.666Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '6e225ece-81a8-49c4-8e1e-e6d9d90d1bf9',
+    name: 'should be able to delete note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        await notesListingScreen.clickNoteByText(noteText);\r\n' +
+        '        // top nav screen\r\n' +
+        '        await topNavBar.clickMoreButton();\r\n' +
+        '        // notes options widget\r\n' +
+        '        await notesOptionsWidget.clickDelete();\r\n' +
+        '        // alert dialog\r\n' +
+        '        await expect(alertDialog.message)\r\n' +
+        "            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n" +
+        '        await alertDialog.confirm();\r\n' +
+        '        // notes listing page\r\n' +
+        '        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n' +
+        '        // top nav screen\r\n' +
+        '        await topNavBar.clickNavIcon();\r\n' +
+        '        // main side menu\r\n' +
+        '        await mainSideMenu.clickTrashCan();\r\n' +
+        '        // trash can list screen\r\n' +
+        '        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n' +
+        '    }'
+    },
+    identifier: 'should be able to delete note',
+    scope: 'Appium mobile test - should be able to delete note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-22T18:33:04.650Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 34948:0
+2026-03-22T18:33:05.866Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '654c1f56-dc91-4434-9411-d60951cad898',
+      name: 'should be able to add note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        // top nav screen \r\n' +
+          '        await topNavBar.clickAddButton();\r\n' +
+          '        // note type modal\r\n' +
+          '        await noteTypeModal.selectTextNote();\r\n' +
+          '        // note creation screen\r\n' +
+          '        await notesCreationScreen.enterNoteText(noteText);\r\n' +
+          '        // top nav bar\r\n' +
+          '        await topNavBar.clickBackButton();\r\n' +
+          '        await topNavBar.clickBackButton();\r\n' +
+          '        // notes listing page\r\n' +
+          '        expect(notesListingScreen.noteTitles)\r\n' +
+          "            .toHaveText('This is a test note');\r\n" +
+          '    }'
+      },
+      identifier: 'should be able to add note',
+      scope: 'Appium mobile test - should be able to add note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'passed',
+      duration_in_ms: 7128,
+      started_at: '2026-03-22T18:32:57.492Z',
+      finished_at: '2026-03-22T18:33:04.620Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '6e225ece-81a8-49c4-8e1e-e6d9d90d1bf9',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '13df59037348551c24d3a5478ff40c8428e12f12',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#10' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'google pixel 7 pro',
+              chromedriverPorts: [ [ 18100, 18110 ] ],
+              chromedriverArgs: [ '--adb-port=5038' ],
+              automationName: 'uiautomator2',
+              systemPort: 8200,
+              autoGrantPermissions: true,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: '2B101FDH300A03',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'DESKTOP-NVKRUUO', buildIdentifier: '#10' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: '2B101FDH300A03',
+            chromedriverPorts: [ [ 18100, 18110 ] ],
+            chromedriverArgs: [ '--adb-port=5038' ],
+            automationName: 'uiautomator2',
+            systemPort: 8200,
+            autoGrantPermissions: true,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: '2B101FDH300A03',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            deviceUDID: '2B101FDH300A03',
+            deviceApiLevel: 33,
+            platformVersion: '13',
+            deviceScreenSize: '1080x2340',
+            deviceScreenDensity: 420,
+            deviceModel: 'Pixel 7 Pro',
+            deviceManufacturer: 'Google',
+            pixelRatio: 2.625,
+            statBarHeight: 130,
+            viewportRect: { left: 0, top: 130, width: 1080, height: 2049 }
+          },
+          platform: 'Android',
+          platform_version: '13',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '6e225ece-81a8-49c4-8e1e-e6d9d90d1bf9',
+      name: 'should be able to delete note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        await notesListingScreen.clickNoteByText(noteText);\r\n' +
+          '        // top nav screen\r\n' +
+          '        await topNavBar.clickMoreButton();\r\n' +
+          '        // notes options widget\r\n' +
+          '        await notesOptionsWidget.clickDelete();\r\n' +
+          '        // alert dialog\r\n' +
+          '        await expect(alertDialog.message)\r\n' +
+          "            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n" +
+          '        await alertDialog.confirm();\r\n' +
+          '        // notes listing page\r\n' +
+          '        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n' +
+          '        // top nav screen\r\n' +
+          '        await topNavBar.clickNavIcon();\r\n' +
+          '        // main side menu\r\n' +
+          '        await mainSideMenu.clickTrashCan();\r\n' +
+          '        // trash can list screen\r\n' +
+          '        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n' +
+          '    }'
+      },
+      identifier: 'should be able to delete note',
+      scope: 'Appium mobile test - should be able to delete note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-22T18:33:04.650Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 34948:0
+2026-03-22T18:33:05.867Z CLI info  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-22T18:33:15.343Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.0","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"6e225ece-81a8-49c4-8e1e-e6d9d90d1bf9","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Appium mobile test - should be able to delete note","test_name":"should be able to delete note","test_code":"async () => {\r\n        await notesListingScreen.clickNoteByText(noteText);\r\n        // top nav screen\r\n        await topNavBar.clickMoreButton();\r\n        // notes options widget\r\n        await notesOptionsWidget.clickDelete();\r\n        // alert dialog\r\n        await expect(alertDialog.message)\r\n            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n        await alertDialog.confirm();\r\n        // notes listing page\r\n        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n        // top nav screen\r\n        await topNavBar.clickNavIcon();\r\n        // main side menu\r\n        await mainSideMenu.clickTrashCan();\r\n        // trash can list screen\r\n        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n    }","test_file_path":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_location":"test\\specs\\notesApp\\notesCrudE2e.spec.js","test_scope":"Appium mobile test - should be able to delete note","test_scopes":["Appium mobile test"],"test_started_at":"2026-03-22T18:33:04.650Z","automate_session_name":"Appium mobile test - should be able to delete note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-22T18:33:15.331Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-22T18:33:15.344Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '6e225ece-81a8-49c4-8e1e-e6d9d90d1bf9',
+    name: 'should be able to delete note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        await notesListingScreen.clickNoteByText(noteText);\r\n' +
+        '        // top nav screen\r\n' +
+        '        await topNavBar.clickMoreButton();\r\n' +
+        '        // notes options widget\r\n' +
+        '        await notesOptionsWidget.clickDelete();\r\n' +
+        '        // alert dialog\r\n' +
+        '        await expect(alertDialog.message)\r\n' +
+        "            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n" +
+        '        await alertDialog.confirm();\r\n' +
+        '        // notes listing page\r\n' +
+        '        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n' +
+        '        // top nav screen\r\n' +
+        '        await topNavBar.clickNavIcon();\r\n' +
+        '        // main side menu\r\n' +
+        '        await mainSideMenu.clickTrashCan();\r\n' +
+        '        // trash can list screen\r\n' +
+        '        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n' +
+        '    }'
+    },
+    identifier: 'should be able to delete note',
+    scope: 'Appium mobile test - should be able to delete note',
+    scopes: [ 'Appium mobile test' ],
+    file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+    result: 'passed',
+    duration_in_ms: 10681,
+    started_at: '2026-03-22T18:33:04.650Z',
+    finished_at: '2026-03-22T18:33:15.331Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 34948:0
+2026-03-22T18:33:15.898Z CLI info [testhub:request-queue-handler]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '6e225ece-81a8-49c4-8e1e-e6d9d90d1bf9',
+      name: 'should be able to delete note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async () => {\r\n' +
+          '        await notesListingScreen.clickNoteByText(noteText);\r\n' +
+          '        // top nav screen\r\n' +
+          '        await topNavBar.clickMoreButton();\r\n' +
+          '        // notes options widget\r\n' +
+          '        await notesOptionsWidget.clickDelete();\r\n' +
+          '        // alert dialog\r\n' +
+          '        await expect(alertDialog.message)\r\n' +
+          "            .toHaveText('Are you sure you want to move the note to the trash can?');\r\n" +
+          '        await alertDialog.confirm();\r\n' +
+          '        // notes listing page\r\n' +
+          '        // expect(await notesListingScreen.isNoteNotExisting(noteText)).toBe(true);\r\n' +
+          '        // top nav screen\r\n' +
+          '        await topNavBar.clickNavIcon();\r\n' +
+          '        // main side menu\r\n' +
+          '        await mainSideMenu.clickTrashCan();\r\n' +
+          '        // trash can list screen\r\n' +
+          '        expect(await trashCanListingScreen.isNoteInTrash(noteText)).toBe(true);\r\n' +
+          '    }'
+      },
+      identifier: 'should be able to delete note',
+      scope: 'Appium mobile test - should be able to delete note',
+      scopes: [ 'Appium mobile test' ],
+      file_name: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      vc_filepath: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      location: 'test\\specs\\notesApp\\notesCrudE2e.spec.js',
+      result: 'passed',
+      duration_in_ms: 10681,
+      started_at: '2026-03-22T18:33:04.650Z',
+      finished_at: '2026-03-22T18:33:15.331Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 34948:0
+2026-03-22T18:33:15.900Z CLI info  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-22T18:33:17.494Z CLI info  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-22T18:33:17.500Z CLI info  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-22T18:33:17.949Z CLI info [testhub:module]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  stopBuild: qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp request={"finished_at":"2026-03-22T18:33:17.493Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-22T18:33:17.950Z CLI info  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-22T18:33:18.248Z CLI info [TEST REPORTING AND ANALYTICS:module]  [abdelazizsamir_f45tEd]  [qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp]  [79778451-4d06-4414-94d7-4995f7301ab2]  Visit https://automation.browserstack.com/builds/qxpqn3dcfafveofo2zr2ge8devcm9sejwmyqwmlp to view build report, insights, and many more debugging information all at one place!

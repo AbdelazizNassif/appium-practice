@@ -1,7 +1,8 @@
 const config = require('./wdio.shared.conf');
 
 config.port = 4723;
-
+    // services for the test runner
+    config.services = ['appium'];
 config.capabilities = [
     {
         platformName: 'ios',

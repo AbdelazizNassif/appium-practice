@@ -1,7 +1,7 @@
 const config = require('./wdio.shared.conf');
 
 config.port = 4723;
-
+// access key fWFaTqNNMPjZ1xNPS818
 config.capabilities = [
     {
         'appium:platformName': 'Android',
@@ -12,7 +12,8 @@ config.capabilities = [
         'appium:autoGrantPermissions': true
     }
 ];
-
+    // services for the test runner
+    config.services = ['appium'];
 config.specs = [
     '../test/specs/notesApp/notesCrudE2e.spec.js'
 ];

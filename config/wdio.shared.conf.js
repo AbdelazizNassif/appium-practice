@@ -50,8 +50,7 @@ exports.config = {
     // port: 4723,
     path: '/',
     
-    // services for the test runner
-    services: ['appium'],
+
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
