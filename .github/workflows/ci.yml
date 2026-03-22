@@ -13,7 +13,7 @@ jobs:
             node-version: '22'
 
         - name: 🏗️ Install Dependencies
-          run: npm install
+          run: npm install --force
 
         - name: 🧪 Test
           run: npm run wdio:android:bs
